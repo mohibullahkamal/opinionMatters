@@ -3,8 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  //[V012]incase we want Heroku to run
+  // a specific script; we specify 
+  // versions...
+  "engines": {
+    "node": "8.1.1",
+    "npm": "5.0.3"
+  }
+  //[V012]There are many ways; but we 
+  // can specify by telling Heroku 
+  // how to startup the server...
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    // Hey Heroku when u start running the 
+    // plz run index.js...
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
