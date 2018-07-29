@@ -14,10 +14,14 @@
   // can specify by telling Heroku 
   // how to startup the server...
   "scripts": {
-    // Hey Heroku when u start running the 
-    // plz run index.js...
+    // Hey Heroku when u start running 
+    // the plz run index.js...
     "start": "node index.js"
   },
+  // [V012] We will add "express" to 
+  // .gitignore file to ignore it to be 
+  // uploaded to any repo...
+  // be it Heroku or Github...
   "author": "",
   "license": "ISC",
   "dependencies": {
